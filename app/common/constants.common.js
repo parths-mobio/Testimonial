@@ -1,18 +1,23 @@
 module.exports = {
-  /* ===== Testimonial constants ===== */
-  TESTIMONIAL_LIST: "Testimonial list",
-  TESTIMONIAL_BY_ID: "Testimonial by id",
-  TESTIMONIAL_CREATE_SUCCESS: "Testimonial created successfully",
-  TESTIMONIAL_UPDATE_SUCCESS: "Testimonial updated successfully",
-  TESTIMONIAL_DELETE_SUCCESS: "Testimonial deleted successfully",
-  TESTIMONIAL_NOT_FOUND: "Testimonial not found",
+  /* ===== Product constants ===== */
+  PRODUCT_LIST: "Product list",
+  PRODUCT_BY_ID: "Product by id",
+  PRODUCT_CREATE_SUCCESS: "Product created successfully",
+  PRODUCT_UPDATE_SUCCESS: "Product updated successfully",
+  PRODUCT_DELETE_SUCCESS: "Product deleted successfully",
+  PRODUCT_NOT_FOUND: "Product not found",
+
+   /* ===== Cart constants ===== */
+   CART_LIST: "Cart list",
+   CART_BY_ID: "Cart  by id",
+   CART_CREATE_SUCCESS: "Cart  created successfully",
+   CART_UPDATE_SUCCESS: "Cart  updated successfully",
+   CART_DELETE_SUCCESS: "Cart  deleted successfully",
+   CART_NOT_FOUND: "Cart  not found",
+ 
 
   /* 500 server error */
   SOMETHING_WENT_WRONG: "Something went wrong",
 
-  /* ===== Cloudinary ===== */
-  UPLOAD_ERROR: "Something went wrong in Upload",
-  CLOUDINARY_ERROR: "Something went wrong in Cloudinary",
-  CLOUDINARY_SUCCESS: "upload successfully in Cloudinary",
-  FILE_NOT_SUPPORTED: "File Not Supported",
+
 };
